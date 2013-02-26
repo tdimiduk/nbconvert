@@ -23,6 +23,7 @@ from converters.rst import ConverterRST
 from converters.latex import ConverterLaTeX
 from converters.python import ConverterPy
 from converters.reveal import ConverterReveal
+from converters.pdf import ConverterLaTeXToPDF
 
 
 # When adding a new format, make sure to add it to the `converters`
@@ -36,6 +37,7 @@ converters = {
     'html': ConverterHTML,
     'blogger-html': ConverterBloggerHTML,
     'latex': ConverterLaTeX,
+    'pdf' : ConverterLaTeXToPDF,
     'py': ConverterPy,
     'reveal': ConverterReveal,
     }
